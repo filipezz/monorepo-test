@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
+  "repository": {
+    "github": "https://github.com/filipezz/monorepo-test.git"
+  },
   "workspaces": [
     "packages/*"
   ],
