@@ -1,6 +1,6 @@
 {
   "name": "@monorepo/server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "Filipez <filipezmarron@hotmail.com>",
   "homepage": "https://github.com/filipezz/monorepo-test#readme",
@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
+    "@types/jest": "^27.0.2",
     "eslint": "^8.1.0",
     "eslint-config-standard-with-typescript": "^21.0.1",
     "eslint-plugin-import": "^2.24.2",
@@ -23,7 +24,6 @@
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-standard": "^5.0.0",
     "prettier": "^2.4.1",
-    "ts-jest": "^27.0.5",
-    "@types/jest": "^27.0.2"
+    "ts-jest": "^27.0.5"
   }
 }
