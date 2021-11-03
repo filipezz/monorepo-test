@@ -18,7 +18,7 @@
     "test:ci": "npm test -- --coverage",
     "lint-staged": "lint-staged",
     "prepare": "husky install",
-    "app:web": "yarn workspace @monorepo/web dev",
+    "app:app": "yarn workspace @monorepo/app dev",
     "app:server": "yarn workspace @monorepo/server dev"
   },
   "devDependencies": {

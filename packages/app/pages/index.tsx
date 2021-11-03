@@ -1,9 +1,11 @@
 import type { NextPage } from 'next'
+import { shared } from '@monorepo/shared'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
+  console.log(shared)
   return (
     <div className={styles.container}>
       <Head>

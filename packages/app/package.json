@@ -9,6 +9,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@monorepo/shared": "*",
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^12.1.2",
     "babel-jest": "^27.3.1",
