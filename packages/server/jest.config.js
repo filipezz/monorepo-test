@@ -1,19 +1,19 @@
-const { name } = require("./package.json");
+const { name } = require('./package.json')
 
 module.exports = {
   displayName: name,
   name,
-  preset: "ts-jest",
-  coverageDirectory: "coverage",
-  testEnvironment: "node",
+  preset: 'ts-jest',
+  coverageDirectory: 'coverage',
+  testEnvironment: 'node',
   transform: {
-    ".+\\.ts$": "ts-jest",
+    '.+\\.ts$': 'ts-jest'
   },
-  roots: ["<rootDir>/src"],
+  roots: ['<rootDir>/src'],
   collectCoverageFrom: [
-    "<rootDir>/src/**/*.ts",
-    "!<rootDir>/src/main/**",
-    "!<rootDir>/src/**/index.ts",
-    "!<rootDir>/src/**/**/**-protocols.ts",
-  ],
-};
+    '<rootDir>/src/**/*.ts',
+    '!<rootDir>/src/main/**',
+    '!<rootDir>/src/**/index.ts',
+    '!<rootDir>/src/**/**/**-protocols.ts'
+  ]
+}

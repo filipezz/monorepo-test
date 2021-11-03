@@ -1,6 +1,3 @@
-'use strict';
-
-
 
 describe('@monorepo/shared', () => {
     it('should have a dummy test', () => {
