@@ -1,4 +1,4 @@
-name: Build & Deploy (Production)
+name: Build & Deploy Backend (Production)
 
 on:
   push:
@@ -6,7 +6,6 @@ on:
       - main
     paths:
       - "packages/server/**"
-      # - 'packages/another-package/**'
 
 jobs:
   deploy:
