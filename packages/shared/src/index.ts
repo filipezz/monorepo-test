@@ -3,5 +3,5 @@
 
 
 export function shared(): void {
-  console.log("shared");
+  console.log("shared function");
 }
