@@ -1,0 +1,35 @@
+{
+  "name": "@monorepo/prisma",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Filipez <filipezmarron@hotmail.com>",
+  "homepage": "https://github.com/filipezz/monorepo-test#readme",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipezz/monorepo-test.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/filipezz/monorepo-test/issues"
+  },
+  "devDependencies": {
+    "prisma": "^3.4.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.4.0"
+  }
+}
